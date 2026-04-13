@@ -1,0 +1,15 @@
+User-agent: *
+Allow: /
+
+# Block admin/dashboard routes
+Disallow: /dashboard
+Disallow: /create-post
+Disallow: /update-post/
+
+# Block auth routes
+Disallow: /sign-in
+Disallow: /sign-up
+Disallow: /forgot-password
+Disallow: /reset-password/
+
+Sitemap: https://versoblog.netlify.app/sitemap.xml
