@@ -17,7 +17,7 @@ export default defineConfig({
         manualChunks: {
           'vendor-react': ['react', 'react-dom', 'react-router-dom'],
           'vendor-redux': ['react-redux', '@reduxjs/toolkit', 'redux-persist'],
-          'vendor-firebase': ['firebase'],
+          'vendor-firebase': ['firebase/app', 'firebase/auth'],
           'vendor-charts': ['recharts'],
           'vendor-ui': ['flowbite-react'],
           'vendor-icons': ['react-icons'],
